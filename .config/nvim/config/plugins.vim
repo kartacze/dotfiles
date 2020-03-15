@@ -41,6 +41,7 @@ Plug 'leafgarland/typescript-vim'
 """""""""""""""""""" COLOR SCHEMES """"""""""""""""""""
 
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'mhartington/oceanic-next'
 
 """""""""""""""""""" RACKET """"""""""""""""""""
 Plug 'wlangstroth/vim-racket'
