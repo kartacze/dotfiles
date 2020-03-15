@@ -1,6 +1,7 @@
 {
 	"suggest.echodocSupport": false,
 	"suggest.maxCompleteItemCount": 20,
+  "suggest.timeout": 4000,
 	"tsserver.trace.server": "verbose",
 	"typescript.suggest.autoImports": true,
 	"coc.preferences.formatOnSaveFiletypes": [

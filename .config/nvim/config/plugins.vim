@@ -42,5 +42,9 @@ Plug 'leafgarland/typescript-vim'
 
 Plug 'rafi/awesome-vim-colorschemes'
 
+"""""""""""""""""""" RACKET """"""""""""""""""""
+Plug 'wlangstroth/vim-racket'
+Plug 'sjl/tslime.vim'
+
 " Initialize plugin system
 call plug#end()

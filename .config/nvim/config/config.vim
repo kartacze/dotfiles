@@ -11,6 +11,10 @@ set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab 
 
+
+set foldmethod=indent
+set foldlevel=3
+
 vnoremap . :normal . <CR>
 " " Copy to clipboard
 vnoremap  <leader>y  "+y
@@ -161,6 +165,13 @@ let g:closetag_filetypes = 'html,xhtml,phtml,javascript,typescript,typescript.ts
 let g:closetag_emptyTags_caseSensitive = 1
 let g:closetag_shortcut = '>'
 let g:closetag_close_shortcut = '<leader>>'
+
+" tslime {{{
+let g:tslime_ensure_trailing_newlines = 1
+let g:tslime_normal_mapping = '<localleader>t'
+let g:tslime_visual_mapping = '<localleader>t'
+let g:tslime_vars_mapping = '<localleader>T'
+" }}}
 
 """""""""""""""""""" SYNTAX """"""""""""""""""""
 
