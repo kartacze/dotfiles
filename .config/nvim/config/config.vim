@@ -29,7 +29,7 @@ endif
 
 " Theme
 syntax enable
-colorscheme OceanicNext
+colorscheme gotham256
 
 
 """""""""""""""""""" FZF """"""""""""""""""""
@@ -68,7 +68,7 @@ let g:fzf_colors =
 """""""""""""""""""" LIGHTLINE """"""""""""""""""""
 
 let g:lightline = {
-      \ 'colorscheme': 'OceanicNext',
+      \ 'colorscheme': 'gotham256',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'filename', 'modified' ] ]

@@ -87,7 +87,7 @@ scrolling:
 # Some applications, like Emacs, rely on knowing about the width of a tab.
 # To prevent unexpected behavior in these applications, it's also required to
 # change the `it` value in terminfo when altering this setting.
-tabspaces: 4
+tabspaces: 2
 
 # Font configuration (changes require restart)
 font:
@@ -99,31 +99,15 @@ font:
     #   - (macOS) Menlo
     #   - (Linux) monospace
     #   - (Windows) Consolas
-    family: RobotoMono Nerd Font
-
-    # The `style` can be specified to pick a specific face.
+    family: Fira Code Nerd Font
     style: Regular
 
-  # Bold font face
   bold:
-    # Font family
-    #
-    # If the bold family is not specified, it will fall back to the
-    # value specified for the normal font.
-    family: RobotoMono Nerd Font
-
-    # The `style` can be specified to pick a specific face.
+    family: Fira Code Nerd Font
     style: Bold
 
-  # Italic font face
   italic:
-    # Font family
-    #
-    # If the italic family is not specified, it will fall back to the
-    # value specified for the normal font.
-    family: RobotoMono Nerd Font
-
-    # The `style` can be specified to pick a specific face.
+    family: Fira Code Nerd Font
     style: Italic
 
   # Point size
@@ -164,34 +148,31 @@ draw_bold_text_with_bright_colors: true
 # Colors (One Dark); if dim colors are not set, they will be calculated
 # automatically based on the `normal` colors
 colors:
-    primary:
-        background: '#24272e'
-        foreground: '#abb2bf'
-    cursor:
-        text: '#0b0b0b'    # black
-        cursor: '#528bff'
-    selection:
-        text: '#abb2bf'
-        background: '#3e4452'
-    normal:
-        black:   '#24272e'
-        red:     '#e06c75'
-        green:   '#98c379'
-        yellow:  '#e5c07b'
-        blue:    '#61afef'
-        magenta: '#c678dd'
-        cyan:    '#56b6c2'
-        white:   '#abb2bf'
-    bright:
-        black:   '#3e4452'
-        red:     '#be5046'
-        green:   '#98c379'
-        yellow:  '#d19a66'
-        blue:    '#61afef'
-        magenta: '#c678dd'
-        cyan:    '#56b6c2'
-        white:   '#5c6370'
+  primary:
+    background: "#0f0f0f"
+    foreground: "#BABABA"
 
+  # Normal colors
+  normal:
+    black:    "#000000"
+    red:      "#E8341C"
+    green:    "#68C256"
+    yellow:   "#F2D42C"
+    blue:     "#1C98E8"
+    magenta:  "#8E69C9"
+    cyan:     "#1C98E8"
+    white:    "#BABABA"
+
+  # Bright colors
+  bright:
+    black:    "#666666"
+    red:      "#E05A4F"
+    green:    "#77B869"
+    yellow:   "#EFD64B"
+    blue:     "#387CD3"
+    magenta:  "#957BBE"
+    cyan:     "#3D97E2"
+    white:    "#BABABA"
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
