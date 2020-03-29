@@ -1,8 +1,9 @@
 [user]
-  name = Teodor Pytka
-  email = teodor.pytka@10clouds.com
+	name = Teodor Pytka
+	email = teodoreczek@gmail.com
 [core]
   pager = diff-so-fancy | less --tabs=4 -RFX
+	editor = neovim
 [alias]
   co = checkout
   ci = commit

@@ -5,7 +5,7 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
-sudo apt install -y curl python-pip
+sudo apt install -y curl python-pip fd-find git tmux
 
 # alacritty
 add-apt-repository ppa:mmstick76/alacritty
@@ -20,9 +20,6 @@ chmod u+x nvim.appimage
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 nvim +PlugInstall +qall
-
-# tmux
-sudo apt install -y tmux
 
 # nvm install
 curl -fsSL https://github.com/Schniz/fnm/raw/master/.ci/install.sh | bash
