@@ -20,11 +20,14 @@ Plug 'itchyny/lightline.vim'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
-Plug 'ryanoasis/vim-devicons'
 Plug 'ap/vim-buftabline'
 Plug 'alvan/vim-closetag'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+
+" SNIPPETS
+
+Plug 'mlaursen/vim-react-snippets'
 
 " FZF serach
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -36,14 +39,20 @@ Plug 'mileszs/ack.vim'
 """""""""""""""""""" SYNTAX """"""""""""""""""""
 " Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'pangloss/vim-javascript'
 
 """""""""""""""""""" COLOR SCHEMES """"""""""""""""""""
+Plug 'mhartington/oceanic-next'
 Plug 'whatyouhide/vim-gotham'
+Plug 'morhetz/gruvbox'
 
 """""""""""""""""""" RACKET """"""""""""""""""""
 Plug 'wlangstroth/vim-racket'
 Plug 'sjl/tslime.vim'
+
+" icons 
+Plug 'ryanoasis/vim-devicons'
 
 " Initialize plugin system
 call plug#end()
