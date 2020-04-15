@@ -18,8 +18,8 @@ set shortmess+=c
 set signcolumn=yes
 
 " Use `[g` and `]g` to navigate diagnostics
-nmap <silent> gc[ <Plug>(coc-diagnostic-prev)
-nmap <silent> gc] <Plug>(coc-diagnostic-next)
+nmap <silent> gx[ <Plug>(coc-diagnostic-prev)
+nmap <silent> gx] <Plug>(coc-diagnostic-next)
 
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
@@ -93,3 +93,19 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+
+""""""""""""""""" GIT  """""""""""""""""
+
+" navigate chunks of current buffer
+nmap [g <Plug>(coc-git-prevchunk)
+nmap ]g <Plug>(coc-git-nextchunk)
+" show chunk diff at current position
+nmap gs <Plug>(coc-git-chunkinfo)
+" show commit contains current position
+nmap gc <Plug>(coc-git-commit)
+" create text object for git chunks
+omap ig <Plug>(coc-git-chunk-inner)
+xmap ig <Plug>(coc-git-chunk-inner)
+omap ag <Plug>(coc-git-chunk-outer)
+xmap ag <Plug>(coc-git-chunk-outer)

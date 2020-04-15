@@ -21,7 +21,10 @@ Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
 Plug 'itchyny/lightline.vim'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
+" Plug 'tpope/vim-vinegar'
+Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'kristijanhusak/defx-icons'
 Plug 'ap/vim-buftabline'
 Plug 'alvan/vim-closetag'
 Plug 'sheerun/vim-polyglot'
@@ -39,9 +42,11 @@ Plug 'mileszs/ack.vim'
 
 """""""""""""""""""" SYNTAX """"""""""""""""""""
 " Plug 'mxw/vim-jsx'
-Plug 'leafgarland/typescript-vim'
-Plug 'HerringtonDarkholme/yats.vim'
+" Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'pangloss/vim-javascript'
+" Plug 'leafgarland/typescript-vim'
+Plug 'tasn/vim-tsx'
+" Plug 'maxmellon/vim-jsx-pretty'
 
 """""""""""""""""""" COLOR SCHEMES """"""""""""""""""""
 Plug 'mhartington/oceanic-next'
