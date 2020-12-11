@@ -25,6 +25,7 @@ Plug 'tpope/vim-surround'
 " Plug 'tpope/vim-vinegar'
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'kristijanhusak/defx-icons'
+Plug 'kristijanhusak/defx-git'
 Plug 'ap/vim-buftabline'
 Plug 'alvan/vim-closetag'
 Plug 'sheerun/vim-polyglot'
@@ -59,6 +60,9 @@ Plug 'sjl/tslime.vim'
 
 " icons 
 Plug 'ryanoasis/vim-devicons'
+
+" ELM
+Plug 'elmcast/elm-vim'
 
 " Initialize plugin system
 call plug#end()

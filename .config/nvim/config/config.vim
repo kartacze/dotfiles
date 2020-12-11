@@ -1,7 +1,6 @@
-
-
 filetype indent on  " allows auto-indenting depending on file type
 
+set number
 set relativenumber
 set ignorecase
 
@@ -21,6 +20,8 @@ vnoremap  <leader>y  "+y
 nnoremap  <leader>y  "+y
 
 """""""""""""""""""" COLOR SCHEME """"""""""""""""""""
+
+let g:python3_host_prog = 'python3.8'
 
 
 " if (has("termguicolors"))
@@ -121,13 +122,20 @@ endfunction
 """""""""""""""""""" NERD TREE """"""""""""""""""""
 
 
+nnoremap <silent> <Leader>e :<C-U>:Defx -resume -buffer_name=explorer -split=vertical -vertical_preview<CR>
 nnoremap <C-o> :Defx<CR>
-nnoremap <leader>r :Defx -search=`expand('%:p')` `getcwd()`<CR>
+" nnoremap <leader>r :Defx `expand('%:p:h')` -search=`expand('%:p')` -buffer-name=defx<CR>
+nnoremap <leader>r :Defx -search=`expand('%:p')` -buffer-name=defx<CR>
+nnoremap <silent> - :<C-U>:Defx `expand('%:p:h')` -search=`expand('%:p')` -buffer-name=defx<CR>
 
 
 autocmd FileType defx call s:defx_my_settings()
+" autocmd BufWritePost * call defx#redraw()
+
 function! s:defx_my_settings() abort
   " Define mappings
+  setl norelativenumber 
+  setl nonumber 
   nnoremap <silent><buffer><expr> <CR> defx#do_action('drop')
   nnoremap <silent><buffer><expr> c defx#do_action('copy')
   nnoremap <silent><buffer><expr> m defx#do_action('move')
@@ -160,20 +168,22 @@ function! s:defx_my_settings() abort
   nnoremap <silent><buffer><expr> cd defx#do_action('change_vim_cwd')
 endfunction
 
+
 call defx#custom#column('icon', {
       \ 'directory_icon': '▸',
       \ 'opened_icon': '▾',
       \ })
 
 call defx#custom#option('_', {
-      \ 'winwidth': 30,
+      \ 'winwidth': 45,
       \ 'split': 'vertical',
       \ 'direction': 'topleft',
       \ 'show_ignored_files': 0,
       \ 'buffer_name': 'defxplorer',
       \ 'toggle': 1,
-      \ 'columns': 'icon:indent:icons:filename',
+      \ 'columns': 'indent:icon:icons:filename:git',
       \ 'resume': 1,
+      \ 'profile': 1,
       \ })
 
 call defx#custom#column('mark', {
@@ -181,9 +191,20 @@ call defx#custom#column('mark', {
       \ 'selected_icon': '✓',
       \ })
 
+call defx#custom#column('git', 'column_length', 2)
 
-
-
+call defx#custom#column('git', {
+	\   'indicators': {
+	\     'Modified'  : '🔥',
+	\     'Staged'    : '➕',
+	\     'Untracked' : '🚚',
+	\     'Renamed'   : '📯',
+	\     'Unmerged'  : '≠',
+	\     'Ignored'   : 'ⁱ',
+	\     'Deleted'   : '✖',
+	\     'Unknown'   : '❓'
+	\   }
+	\ })
 
 set guifont=Fura\ Code:h12
 

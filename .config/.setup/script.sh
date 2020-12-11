@@ -5,7 +5,7 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
-sudo apt install -y curl python-pip fd-find git tmux
+sudo apt install -y curl python-pip fd-find git tmux silversearcher-ag
 
 # alacritty
 add-apt-repository ppa:mmstick76/alacritty

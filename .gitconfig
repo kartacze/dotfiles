@@ -3,11 +3,14 @@
 	email = teodorpytka@10clouds.com
 [core]
   pager = diff-so-fancy | less --tabs=4 -RFX
-	editor = nvim
+	editor = nvim.appimage
 [alias]
   puoh = push -u origin HEAD
+  puohf = push -u origin HEAD --force-with-lease
   co = checkout
   ci = commit
+  cim = commit -m
+  cia = commit --amend
   st = status
   br = branch
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
