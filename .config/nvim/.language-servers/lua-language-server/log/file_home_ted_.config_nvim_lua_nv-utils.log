@@ -1,0 +1,778 @@
+[20:52:20.898][info] [#0:main:51]: Lua Lsp startup, root: 	/home/ted/.config/nvim/.language-servers/lua-language-server
+[20:52:20.898][debug][#0:main:52]: ROOT:	/home/ted/.config/nvim/.language-servers/lua-language-server
+[20:52:20.898][debug][#0:main:53]: LOGPATH:	/home/ted/.config/nvim/.language-servers/lua-language-server/log
+[20:52:20.898][debug][#0:main:54]: METAPATH:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta
+[20:52:20.901][info] [#0:script.service.telemetry:16]: Telemetry Token:	7CE931F2E638D16F
+[20:52:20.925][info] [#0:script.pub.pub:48]: Create brave:	1
+[20:52:20.925][info] [#0:script.pub.pub:48]: Create brave:	2
+[20:52:20.925][info] [#0:script.pub.pub:48]: Create brave:	3
+[20:52:20.925][info] [#0:script.pub.pub:48]: Create brave:	4
+[20:52:20.925][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.756 MB
+        # 00 : 1.756 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:52:20.985][debug][#0:script.provider.client:32]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dynamicRegistration = false,
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = false,
+                    deprecatedSupport = false,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    preselectSupport = false,
+                    snippetSupport = false,
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = false,
+                dynamicRegistration = false,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.5.0",
+    },
+    initializationOptions = {
+    },
+    processId = 77004,
+    rootPath = "/home/ted/.config/nvim/lua/nv-utils",
+    rootUri = "file:///home/ted/.config/nvim/lua/nv-utils",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "/home/ted/.config/nvim/lua/nv-utils",
+            uri = "file:///home/ted/.config/nvim/lua/nv-utils",
+        },
+    },
+}
+[20:52:20.985][info] [#0:script.language:135]: VSC language: nil
+[20:52:20.985][info] [#0:script.language:136]: LS  language: en-us
+[20:52:20.995][info] [#0:script.workspace.workspace:31]: Workspace inited: 	file:///home/ted/.config/nvim/lua/nv-utils
+[20:52:20.995][info] [#0:script.workspace.workspace:38]: Log path: 	/home/ted/.config/nvim/.language-servers/lua-language-server/log/file_home_ted_.config_nvim_lua_nv-utils.log
+[20:52:20.999][debug][#0:script.provider.provider:247]: didOpen	file:///home/ted/.config/nvim/lua/nv-utils/init.lua
+[20:52:21.003][debug][#0:script.config:248]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        callSnippet = "Disable",
+        displayContext = 6,
+        enable = true,
+        keywordSnippet = "Replace",
+        workspaceWord = true,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["ambiguity-1"] = "Any",
+            ["circle-doc-class"] = "Any",
+            ["close-non-object"] = "Any",
+            ["code-after-break"] = "Opened",
+            ["count-down-loop"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["lowercase-global"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-field"] = "Opened",
+            ["undefined-global"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-label"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+        },
+        severity = {
+            ["ambiguity-1"] = "Warning",
+            ["circle-doc-class"] = "Warning",
+            ["close-non-object"] = "Warning",
+            ["code-after-break"] = "Hint",
+            ["count-down-loop"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["lowercase-global"] = "Information",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Warning",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-field"] = "Warning",
+            ["undefined-global"] = "Warning",
+            ["unknown-diag-code"] = "Waiting",
+            ["unused-function"] = "Hint",
+            ["unused-label"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = true,
+        paramType = true,
+        setType = false,
+    },
+    hover = {
+        enable = true,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        searchDepth = 0,
+    },
+    runtime = {
+        builtin = {
+        },
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        nonstandardSymbol = {
+        },
+        path = {
+            [1] = "./?.lua",
+            [2] = "/home/ted/Programs/neovim/.deps/usr/share/luajit-2.1.0-beta3/?.lua",
+            [3] = "/usr/local/share/lua/5.1/?.lua",
+            [4] = "/usr/local/share/lua/5.1/?/init.lua",
+            [5] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?.lua",
+            [6] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?/init.lua",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+        special = {
+        },
+        unicodeName = false,
+        version = "LuaJIT",
+    },
+    signatureHelp = {
+        enable = true,
+    },
+    telemetry = {
+        enable = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+        },
+        ignoreSubmodules = true,
+        library = {
+            ["/home/ted/neovim/share/nvim/runtime/lua"] = true,
+            ["/home/ted/neovim/share/nvim/runtime/lua/vim/lsp"] = true,
+        },
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        useGitIgnore = true,
+    },
+}	{
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[20:52:21.009][debug][#0:script.provider.semantic-tokens:96]: Refresh semantic tokens.
+[20:52:21.009][debug][#0:script.provider.semantic-tokens:96]: Refresh semantic tokens.
+[20:52:21.009][debug][#0:script.provider.completion:19]: Enable completion.
+[20:52:21.009][debug][#0:script.config:248]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        callSnippet = "Disable",
+        displayContext = 6,
+        enable = true,
+        keywordSnippet = "Replace",
+        workspaceWord = true,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["ambiguity-1"] = "Any",
+            ["circle-doc-class"] = "Any",
+            ["close-non-object"] = "Any",
+            ["code-after-break"] = "Opened",
+            ["count-down-loop"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["lowercase-global"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-field"] = "Opened",
+            ["undefined-global"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-label"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+        },
+        severity = {
+            ["ambiguity-1"] = "Warning",
+            ["circle-doc-class"] = "Warning",
+            ["close-non-object"] = "Warning",
+            ["code-after-break"] = "Hint",
+            ["count-down-loop"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["lowercase-global"] = "Information",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Warning",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-field"] = "Warning",
+            ["undefined-global"] = "Warning",
+            ["unknown-diag-code"] = "Waiting",
+            ["unused-function"] = "Hint",
+            ["unused-label"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = true,
+        paramType = true,
+        setType = false,
+    },
+    hover = {
+        enable = true,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        searchDepth = 0,
+    },
+    runtime = {
+        builtin = {
+        },
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        nonstandardSymbol = {
+        },
+        path = {
+            [1] = "./?.lua",
+            [2] = "/home/ted/Programs/neovim/.deps/usr/share/luajit-2.1.0-beta3/?.lua",
+            [3] = "/usr/local/share/lua/5.1/?.lua",
+            [4] = "/usr/local/share/lua/5.1/?/init.lua",
+            [5] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?.lua",
+            [6] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?/init.lua",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+        special = {
+        },
+        unicodeName = false,
+        version = "LuaJIT",
+    },
+    signatureHelp = {
+        enable = true,
+    },
+    telemetry = {
+        enable = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+        },
+        ignoreSubmodules = true,
+        library = {
+            ["/home/ted/neovim/share/nvim/runtime/lua"] = true,
+            ["/home/ted/neovim/share/nvim/runtime/lua/vim/lsp"] = true,
+        },
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        useGitIgnore = true,
+    },
+}	{
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[20:52:21.948][info] [#0:script.workspace.workspace:296]: Preload start.
+[20:52:21.950][info] [#0:script.workspace.workspace:127]: Ignore by library:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.950][info] [#0:script.workspace.workspace:127]: Ignore by library:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:21.951][debug][#0:script.workspace.workspace:160]: getLibraryMatchers	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.951][debug][#0:script.workspace.workspace:160]: getLibraryMatchers	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:21.951][debug][#0:script.workspace.workspace:160]: getLibraryMatchers	/home/ted/neovim/share/nvim/runtime/lua	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:21.951][info] [#0:script.workspace.workspace:301]: Scan files at:	/home/ted/.config/nvim/lua/nv-utils
+[20:52:21.952][info] [#0:script.workspace.workspace:306]: Scan library at:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.952][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/lua/nv-utils/init.lua , size = 0.000 KB
+[20:52:21.953][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 14.298 KB
+[20:52:21.953][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.959][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/util.lua , size = 54.753 KB
+[20:52:21.959][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.979][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/log.lua , size = 3.330 KB
+[20:52:21.979][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.980][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 39.150 KB
+[20:52:21.980][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:21.987][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 39.049 KB
+[20:52:21.987][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:22.000][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 16.646 KB
+[20:52:22.000][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:22.007][info] [#0:script.workspace.workspace:306]: Scan library at:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.007][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 21.106 KB
+[20:52:22.007][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[20:52:22.014][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/math.lua , size = 7.761 KB
+[20:52:22.014][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.019][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/io.lua , size = 6.443 KB
+[20:52:22.019][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.021][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/bit.lua , size = 1.165 KB
+[20:52:22.021][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.022][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/package.lua , size = 2.732 KB
+[20:52:22.022][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.023][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/coroutine.lua , size = 2.489 KB
+[20:52:22.023][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.024][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/os.lua , size = 4.262 KB
+[20:52:22.025][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.026][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/string.lua , size = 6.023 KB
+[20:52:22.026][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.032][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/debug.lua , size = 7.488 KB
+[20:52:22.032][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.035][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/table.lua , size = 2.767 KB
+[20:52:22.035][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.036][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/basic.lua , size = 13.746 KB
+[20:52:22.036][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.039][info] [#0:script.workspace.workspace:306]: Scan library at:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.039][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/jit.lua , size = 0.653 KB
+[20:52:22.039][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.040][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/ffi.lua , size = 2.306 KB
+[20:52:22.040][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.041][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/builtin.lua , size = 0.259 KB
+[20:52:22.041][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[20:52:22.041][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/highlight.lua , size = 3.325 KB
+[20:52:22.042][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.043][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/compat.lua , size = 0.520 KB
+[20:52:22.043][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.043][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/F.lua , size = 0.379 KB
+[20:52:22.043][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.044][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter.lua , size = 2.425 KB
+[20:52:22.044][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.045][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/shared.lua , size = 16.257 KB
+[20:52:22.045][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.051][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/uri.lua , size = 3.238 KB
+[20:52:22.051][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.052][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/util.lua , size = 54.753 KB
+[20:52:22.052][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.052][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 14.298 KB
+[20:52:22.052][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.052][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/log.lua , size = 3.330 KB
+[20:52:22.052][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.052][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 39.150 KB
+[20:52:22.052][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.052][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 16.646 KB
+[20:52:22.052][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.052][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 39.049 KB
+[20:52:22.052][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.053][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 21.106 KB
+[20:52:22.053][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.053][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/query.lua , size = 12.126 KB
+[20:52:22.053][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.058][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/highlighter.lua , size = 7.239 KB
+[20:52:22.058][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.061][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp.lua , size = 47.742 KB
+[20:52:22.061][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.080][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/languagetree.lua , size = 14.552 KB
+[20:52:22.080][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.086][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/language.lua , size = 1.241 KB
+[20:52:22.086][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.086][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/man.lua , size = 4.964 KB
+[20:52:22.086][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.089][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/inspect.lua , size = 9.730 KB
+[20:52:22.089][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[20:52:22.093][info] [#0:script.workspace.workspace:310]: Found 41 files.
+[20:52:22.093][info] [#0:script.workspace.workspace:312]: Loaded 41/41 files
+[20:52:22.093][info] [#0:script.workspace.workspace:321]: Preload finish.
+[20:52:22.157][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.001485
+[20:53:20.959][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 22.105 MB
+        # 00 : 15.858 MB
+        # 01 : 1.073 MB
+        # 02 : 1.116 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:54:20.972][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 22.437 MB
+        # 00 : 16.190 MB
+        # 01 : 1.073 MB
+        # 02 : 1.116 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:55:20.985][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 22.770 MB
+        # 00 : 16.523 MB
+        # 01 : 1.073 MB
+        # 02 : 1.116 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:56:20.491][debug][#0:script.provider.provider:259]: didClose	file:///home/ted/.config/nvim/lua/nv-utils/init.lua
+[20:56:20.998][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 23.201 MB
+        # 00 : 16.955 MB
+        # 01 : 1.073 MB
+        # 02 : 1.116 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:56:22.613][info] [#0:script.provider.provider:150]: Server shutdown.
+[20:56:22.614][info] [#0:script.provider.provider:145]: Server exited.

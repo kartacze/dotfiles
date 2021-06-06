@@ -24,8 +24,6 @@ nnoremap  <leader>y  "+y
 let g:python3_host_prog = 'python3.8'
 
 
-" if (has("termguicolors"))
-" endif
 
 " Theme
 syntax enable
@@ -44,7 +42,7 @@ colorscheme gruvbox
 let $FZF_DEFAULT_COMMAND = 'fd --type f --hidden --follow --exclude .git'
 
 cnoreabbrev Ack Ack!
-nnoremap <Leader>a :Ack!<Space>
+nnoremap <Leader>s :Ack!<Space>
 
 let g:ackprg = 'ag --vimgrep'
 nnoremap <C-]> :Files <CR>
@@ -123,7 +121,7 @@ endfunction
 
 
 nnoremap <silent> <Leader>e :<C-U>:Defx -resume -buffer_name=explorer -split=vertical -vertical_preview<CR>
-nnoremap <C-o> :Defx<CR>
+" nnoremap <C-o> :Defx<CR>
 " nnoremap <leader>r :Defx `expand('%:p:h')` -search=`expand('%:p')` -buffer-name=defx<CR>
 nnoremap <leader>r :Defx -search=`expand('%:p')` -buffer-name=defx<CR>
 nnoremap <silent> - :<C-U>:Defx `expand('%:p:h')` -search=`expand('%:p')` -buffer-name=defx<CR>

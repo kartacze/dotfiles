@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/proc/sys/fs/inotify'
+let g:netrw_dirhist_2='/home/ted/workspace/asenczur/globalcustomerservices/__tests__/src/veeva/publisher/HcpCreatedPublisherOut'
+let g:netrw_dirhist_1='/home/ted/workspace/asenczur/globalcustomerservices/scripts/events'
+let g:netrw_dirhist_0='/home/ted/workspace/asenczur/globalcustomerservices/scripts'
+let g:netrw_dirhist_9='/home/ted/workspace/asenczur/globalcustomerservices/scripts/events'
+let g:netrw_dirhist_8='/home/ted/workspace/asenczur/globalcustomerservices/scripts'
+let g:netrw_dirhist_7='/home/ted/workspace/asenczur/globalcustomerservices/scripts/events'
+let g:netrw_dirhist_6='/home/ted/workspace/asenczur/globalcustomerservices/scripts'
+let g:netrw_dirhist_5='/home/ted/workspace/type-app'
+let g:netrw_dirhist_4='/home/ted/workspace/asenczur/denoTest'

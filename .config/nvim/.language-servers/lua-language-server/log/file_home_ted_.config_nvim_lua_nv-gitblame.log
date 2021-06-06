@@ -1,0 +1,1855 @@
+[18:36:43.871][info] [#0:main:51]: Lua Lsp startup, root: 	/home/ted/.config/nvim/.language-servers/lua-language-server
+[18:36:43.871][debug][#0:main:52]: ROOT:	/home/ted/.config/nvim/.language-servers/lua-language-server
+[18:36:43.871][debug][#0:main:53]: LOGPATH:	/home/ted/.config/nvim/.language-servers/lua-language-server/log
+[18:36:43.871][debug][#0:main:54]: METAPATH:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta
+[18:36:43.874][info] [#0:script.service.telemetry:16]: Telemetry Token:	7CE931F2E638D16F
+[18:36:43.900][info] [#0:script.pub.pub:48]: Create brave:	1
+[18:36:43.900][info] [#0:script.pub.pub:48]: Create brave:	2
+[18:36:43.900][info] [#0:script.pub.pub:48]: Create brave:	3
+[18:36:43.900][info] [#0:script.pub.pub:48]: Create brave:	4
+[18:36:43.900][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.756 MB
+        # 00 : 1.756 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:36:43.926][debug][#0:script.provider.client:32]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dynamicRegistration = false,
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = false,
+                    deprecatedSupport = false,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    preselectSupport = false,
+                    snippetSupport = false,
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = false,
+                dynamicRegistration = false,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.5.0",
+    },
+    initializationOptions = {
+    },
+    processId = 32889,
+    rootPath = "/home/ted/.config/nvim/lua/nv-gitblame",
+    rootUri = "file:///home/ted/.config/nvim/lua/nv-gitblame",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "/home/ted/.config/nvim/lua/nv-gitblame",
+            uri = "file:///home/ted/.config/nvim/lua/nv-gitblame",
+        },
+    },
+}
+[18:36:43.926][info] [#0:script.language:135]: VSC language: nil
+[18:36:43.926][info] [#0:script.language:136]: LS  language: en-us
+[18:36:43.932][info] [#0:script.workspace.workspace:31]: Workspace inited: 	file:///home/ted/.config/nvim/lua/nv-gitblame
+[18:36:43.932][info] [#0:script.workspace.workspace:38]: Log path: 	/home/ted/.config/nvim/.language-servers/lua-language-server/log/file_home_ted_.config_nvim_lua_nv-gitblame.log
+[18:36:43.933][debug][#0:script.provider.provider:247]: didOpen	file:///home/ted/.config/nvim/lua/nv-gitblame/init.lua
+[18:36:43.937][debug][#0:script.config:248]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        callSnippet = "Disable",
+        displayContext = 6,
+        enable = true,
+        keywordSnippet = "Replace",
+        workspaceWord = true,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["ambiguity-1"] = "Any",
+            ["circle-doc-class"] = "Any",
+            ["close-non-object"] = "Any",
+            ["code-after-break"] = "Opened",
+            ["count-down-loop"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["lowercase-global"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-field"] = "Opened",
+            ["undefined-global"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-label"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+        },
+        severity = {
+            ["ambiguity-1"] = "Warning",
+            ["circle-doc-class"] = "Warning",
+            ["close-non-object"] = "Warning",
+            ["code-after-break"] = "Hint",
+            ["count-down-loop"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["lowercase-global"] = "Information",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Warning",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-field"] = "Warning",
+            ["undefined-global"] = "Warning",
+            ["unknown-diag-code"] = "Waiting",
+            ["unused-function"] = "Hint",
+            ["unused-label"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = true,
+        paramType = true,
+        setType = false,
+    },
+    hover = {
+        enable = true,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        searchDepth = 0,
+    },
+    runtime = {
+        builtin = {
+        },
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        nonstandardSymbol = {
+        },
+        path = {
+            [1] = "./?.lua",
+            [2] = "/home/ted/Programs/neovim/.deps/usr/share/luajit-2.1.0-beta3/?.lua",
+            [3] = "/usr/local/share/lua/5.1/?.lua",
+            [4] = "/usr/local/share/lua/5.1/?/init.lua",
+            [5] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?.lua",
+            [6] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?/init.lua",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+        special = {
+        },
+        unicodeName = false,
+        version = "LuaJIT",
+    },
+    signatureHelp = {
+        enable = true,
+    },
+    telemetry = {
+        enable = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+        },
+        ignoreSubmodules = true,
+        library = {
+            ["/home/ted/neovim/share/nvim/runtime/lua"] = true,
+            ["/home/ted/neovim/share/nvim/runtime/lua/vim/lsp"] = true,
+        },
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        useGitIgnore = true,
+    },
+}	{
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[18:36:43.944][debug][#0:script.provider.semantic-tokens:96]: Refresh semantic tokens.
+[18:36:43.944][debug][#0:script.provider.semantic-tokens:96]: Refresh semantic tokens.
+[18:36:43.944][debug][#0:script.provider.completion:19]: Enable completion.
+[18:36:43.944][debug][#0:script.config:248]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        callSnippet = "Disable",
+        displayContext = 6,
+        enable = true,
+        keywordSnippet = "Replace",
+        workspaceWord = true,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["ambiguity-1"] = "Any",
+            ["circle-doc-class"] = "Any",
+            ["close-non-object"] = "Any",
+            ["code-after-break"] = "Opened",
+            ["count-down-loop"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["lowercase-global"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-field"] = "Opened",
+            ["undefined-global"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-label"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+        },
+        severity = {
+            ["ambiguity-1"] = "Warning",
+            ["circle-doc-class"] = "Warning",
+            ["close-non-object"] = "Warning",
+            ["code-after-break"] = "Hint",
+            ["count-down-loop"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["lowercase-global"] = "Information",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Warning",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-field"] = "Warning",
+            ["undefined-global"] = "Warning",
+            ["unknown-diag-code"] = "Waiting",
+            ["unused-function"] = "Hint",
+            ["unused-label"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = true,
+        paramType = true,
+        setType = false,
+    },
+    hover = {
+        enable = true,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        searchDepth = 0,
+    },
+    runtime = {
+        builtin = {
+        },
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        nonstandardSymbol = {
+        },
+        path = {
+            [1] = "./?.lua",
+            [2] = "/home/ted/Programs/neovim/.deps/usr/share/luajit-2.1.0-beta3/?.lua",
+            [3] = "/usr/local/share/lua/5.1/?.lua",
+            [4] = "/usr/local/share/lua/5.1/?/init.lua",
+            [5] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?.lua",
+            [6] = "/home/ted/Programs/neovim/.deps/usr/share/lua/5.1/?/init.lua",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+        special = {
+        },
+        unicodeName = false,
+        version = "LuaJIT",
+    },
+    signatureHelp = {
+        enable = true,
+    },
+    telemetry = {
+        enable = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+        },
+        ignoreSubmodules = true,
+        library = {
+            ["/home/ted/neovim/share/nvim/runtime/lua"] = true,
+            ["/home/ted/neovim/share/nvim/runtime/lua/vim/lsp"] = true,
+        },
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        useGitIgnore = true,
+    },
+}	{
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[18:36:44.250][info] [#0:script.workspace.workspace:296]: Preload start.
+[18:36:44.251][info] [#0:script.workspace.workspace:127]: Ignore by library:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.251][info] [#0:script.workspace.workspace:127]: Ignore by library:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.252][debug][#0:script.workspace.workspace:160]: getLibraryMatchers	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.252][debug][#0:script.workspace.workspace:160]: getLibraryMatchers	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.252][debug][#0:script.workspace.workspace:160]: getLibraryMatchers	/home/ted/neovim/share/nvim/runtime/lua	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.252][info] [#0:script.workspace.workspace:301]: Scan files at:	/home/ted/.config/nvim/lua/nv-gitblame
+[18:36:44.252][info] [#0:script.workspace.workspace:306]: Scan library at:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.253][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/lua/nv-gitblame/init.lua , size = 0.085 KB
+[18:36:44.253][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 14.298 KB
+[18:36:44.253][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.267][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/util.lua , size = 54.753 KB
+[18:36:44.267][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.289][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/log.lua , size = 3.330 KB
+[18:36:44.289][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.291][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 39.150 KB
+[18:36:44.291][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.298][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 16.646 KB
+[18:36:44.298][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.303][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 39.049 KB
+[18:36:44.303][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.318][info] [#0:script.workspace.workspace:306]: Scan library at:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.319][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 21.106 KB
+[18:36:44.319][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua/vim/lsp
+[18:36:44.325][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/math.lua , size = 7.761 KB
+[18:36:44.325][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.329][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/io.lua , size = 6.443 KB
+[18:36:44.329][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.331][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/bit.lua , size = 1.165 KB
+[18:36:44.331][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.332][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/package.lua , size = 2.732 KB
+[18:36:44.332][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.333][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/coroutine.lua , size = 2.489 KB
+[18:36:44.333][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.334][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/os.lua , size = 4.262 KB
+[18:36:44.334][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.336][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/string.lua , size = 6.023 KB
+[18:36:44.336][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.341][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/debug.lua , size = 7.488 KB
+[18:36:44.341][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.344][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/basic.lua , size = 13.746 KB
+[18:36:44.344][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.347][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/jit.lua , size = 0.653 KB
+[18:36:44.347][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.348][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/table.lua , size = 2.767 KB
+[18:36:44.348][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.349][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/builtin.lua , size = 0.259 KB
+[18:36:44.349][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.349][info] [#0:script.workspace.workspace:306]: Scan library at:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.349][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT%20en-us/ffi.lua , size = 2.306 KB
+[18:36:44.349][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/.config/nvim/.language-servers/lua-language-server/meta/LuaJIT en-us
+[18:36:44.351][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/highlight.lua , size = 3.325 KB
+[18:36:44.351][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.352][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/compat.lua , size = 0.520 KB
+[18:36:44.352][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.353][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter.lua , size = 2.425 KB
+[18:36:44.353][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.354][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/F.lua , size = 0.379 KB
+[18:36:44.354][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.354][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/uri.lua , size = 3.238 KB
+[18:36:44.354][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.355][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/shared.lua , size = 16.257 KB
+[18:36:44.355][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.361][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 14.298 KB
+[18:36:44.361][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.361][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/util.lua , size = 54.753 KB
+[18:36:44.361][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.361][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/log.lua , size = 3.330 KB
+[18:36:44.361][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.361][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 39.150 KB
+[18:36:44.361][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.361][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 39.049 KB
+[18:36:44.361][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.361][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 16.646 KB
+[18:36:44.361][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.362][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 21.106 KB
+[18:36:44.362][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.362][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/query.lua , size = 12.126 KB
+[18:36:44.362][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.367][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/lsp.lua , size = 47.742 KB
+[18:36:44.367][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.385][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/languagetree.lua , size = 14.552 KB
+[18:36:44.385][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.390][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/highlighter.lua , size = 7.239 KB
+[18:36:44.390][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.393][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/treesitter/language.lua , size = 1.241 KB
+[18:36:44.393][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.394][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/vim/inspect.lua , size = 9.730 KB
+[18:36:44.394][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.398][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/ted/neovim/share/nvim/runtime/lua/man.lua , size = 4.964 KB
+[18:36:44.398][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/ted/neovim/share/nvim/runtime/lua
+[18:36:44.400][info] [#0:script.workspace.workspace:310]: Found 41 files.
+[18:36:44.400][info] [#0:script.workspace.workspace:312]: Loaded 41/41 files
+[18:36:44.400][info] [#0:script.workspace.workspace:321]: Preload finish.
+[18:36:44.406][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.00556
+[18:37:43.937][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 26.329 MB
+        # 00 : 20.060 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     8
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      8
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:38:43.949][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 26.662 MB
+        # 00 : 20.394 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     8
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      8
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:39:43.961][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 26.997 MB
+        # 00 : 20.729 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     8
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      8
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:40:43.973][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 27.330 MB
+        # 00 : 21.061 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     8
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      8
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:41:43.983][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 27.663 MB
+        # 00 : 21.394 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     8
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      8
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:42:43.992][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.221 MB
+        # 00 : 1.953 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:43:44.000][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.554 MB
+        # 00 : 2.286 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:44:44.010][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.887 MB
+        # 00 : 2.619 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:45:44.021][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 9.219 MB
+        # 00 : 2.951 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:46:44.034][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 9.551 MB
+        # 00 : 3.282 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:47:44.048][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.041 MB
+        # 00 : 1.772 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:48:44.058][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.038 MB
+        # 00 : 1.769 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:49:44.071][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.035 MB
+        # 00 : 1.766 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:50:44.083][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.032 MB
+        # 00 : 1.763 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:51:44.094][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.029 MB
+        # 00 : 1.760 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:52:44.108][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.026 MB
+        # 00 : 1.757 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:53:44.119][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.023 MB
+        # 00 : 1.754 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:54:44.131][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.020 MB
+        # 00 : 1.751 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:55:44.143][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.017 MB
+        # 00 : 1.748 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:56:44.155][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.014 MB
+        # 00 : 1.746 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:57:44.170][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.011 MB
+        # 00 : 1.743 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:58:44.185][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.008 MB
+        # 00 : 1.740 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:59:44.197][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.005 MB
+        # 00 : 1.737 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:00:44.211][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.002 MB
+        # 00 : 1.734 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:01:44.225][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.999 MB
+        # 00 : 1.731 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:02:44.236][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.996 MB
+        # 00 : 1.728 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:03:44.249][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.993 MB
+        # 00 : 1.725 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:04:44.262][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.990 MB
+        # 00 : 1.722 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:05:44.275][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.987 MB
+        # 00 : 1.719 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:06:44.286][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.984 MB
+        # 00 : 1.716 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:07:44.295][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.981 MB
+        # 00 : 1.713 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:08:44.307][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.978 MB
+        # 00 : 1.710 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:09:44.320][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.975 MB
+        # 00 : 1.707 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:10:44.331][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.972 MB
+        # 00 : 1.704 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:11:44.342][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.969 MB
+        # 00 : 1.701 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:12:44.354][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.966 MB
+        # 00 : 1.698 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:13:44.367][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.964 MB
+        # 00 : 1.695 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:14:44.382][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.960 MB
+        # 00 : 1.692 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:15:44.395][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.958 MB
+        # 00 : 1.689 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:16:44.406][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.954 MB
+        # 00 : 1.686 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:17:44.418][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.952 MB
+        # 00 : 1.683 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:18:44.432][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.948 MB
+        # 00 : 1.680 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:19:44.446][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.113 MB
+        # 00 : 1.845 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:20:44.458][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.110 MB
+        # 00 : 1.842 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:21:44.471][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.107 MB
+        # 00 : 1.839 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:22:44.486][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.104 MB
+        # 00 : 1.836 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:23:44.498][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.101 MB
+        # 00 : 1.833 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:24:44.512][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.098 MB
+        # 00 : 1.830 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:25:44.523][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.095 MB
+        # 00 : 1.827 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:26:44.536][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.093 MB
+        # 00 : 1.824 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:27:44.548][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.090 MB
+        # 00 : 1.821 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:28:46.533][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.087 MB
+        # 00 : 1.818 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:29:44.541][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.084 MB
+        # 00 : 1.815 MB
+        # 01 : 1.135 MB
+        # 02 : 1.075 MB
+        # 03 : 2.029 MB
+        # 04 : 2.029 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:30:17.121][info] [#0:script.provider.provider:150]: Server shutdown.
+[19:30:17.122][info] [#0:script.provider.provider:145]: Server exited.

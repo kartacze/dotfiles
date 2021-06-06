@@ -1,0 +1,26 @@
+builddir = build\msvc
+bin = $builddir\bin
+obj = $builddir\obj
+rule command
+  command = $COMMAND
+  description = $DESC
+build $builddir/_/msvc: command
+  pool = console
+  COMMAND = cmd.exe /C cd tools\msvc && lua.exe init.lua $
+      ..\..\3rd\bee.lua\build\msvc\msvc-init.ninja
+build $builddir/_/bee: command | $builddir/_/msvc
+  pool = console
+  COMMAND = cmd.exe /C cd 3rd/bee.lua && ..\..\tools\ninja.exe -f $
+      build\msvc\msvc-init.ninja
+rule copy
+  command = cmd.exe /c copy 2>NUL /y $FROM $TO
+  description = $DESC
+build $builddir/_/copy_bee_1: copy | $builddir/_/bee
+  FROM = 3rd\bee.lua\$bin\bootstrap.exe
+  TO = luamake.exe
+build $builddir/_/copy_bee_2: copy | $builddir/_/bee
+  FROM = 3rd\bee.lua\$bin\bee.dll
+  TO = bee.dll
+build $builddir/_/copy_bee_3: copy | $builddir/_/bee
+  FROM = 3rd\bee.lua\$bin\lua54.dll
+  TO = lua54.dll

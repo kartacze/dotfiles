@@ -7,6 +7,9 @@ filetype off
 " Specify a directory for plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'romgrk/nvim-treesitter-context'
+
 """""""""""""""""""" COC """""""""""""""""""" 
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -15,6 +18,10 @@ Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-git', {'do': 'yarn install --frozen-lockfile'}
+Plug 'weirongxu/coc-explorer', {'do': 'yarn install --frozen-lockfile'}
+
 
 """""""""""""""""""" UTILITES """""""""""""""""""" 
 
@@ -33,6 +40,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " SNIPPETS
 Plug 'mlaursen/vim-react-snippets'
+Plug 'honza/vim-snippets'
 
 " FZF serach
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
