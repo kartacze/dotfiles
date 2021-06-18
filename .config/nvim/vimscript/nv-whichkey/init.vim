@@ -1,4 +1,4 @@
-" Leader Key Maps
+" Leader Key Mapforma
 
 " Timeout
 let g:which_key_timeout = 100
@@ -185,7 +185,7 @@ let g:which_key_map.l = {
       \ 'A' : [':Lspsaga range_code_action'          , 'selected action'],
       \ 'd' : [':Telescope lsp_document_diagnostics' , 'document diagnostics'],
       \ 'D' : [':Telescope lsp_workspace_diagnostics', 'workspace diagnostics'],
-      \ 'f' : [':lua vim.lsp.buf.formatting()'                      , 'format'],
+      \ 'f' : [':lua vim.lsp.buf.formatting_sync()'                      , 'format'],
       \ 'I' : [':LspInfo'                            , 'lsp info'],
       \ 'v' : [':LspVirtualTextToggle'               , 'lsp toggle virtual text'],
       \ 'l' : [':Lspsaga lsp_finder'                 , 'lsp finder'],
