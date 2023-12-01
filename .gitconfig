@@ -1,0 +1,19 @@
+[user]
+	name = Teodor Pytka
+	email = teodorpytka@gmail.com
+
+[core]
+  pager = diff-so-fancy | less --tabs=4 -RFX
+	editor = nvim
+[alias]
+  puoh = push -u origin HEAD
+  puohf = push -u origin HEAD --force-with-lease
+  co = checkout
+  ci = commit
+  cim = commit -m
+  cia = commit --amend
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  lf = log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+  lfa = log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative --all
