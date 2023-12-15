@@ -1,0 +1,24 @@
+# AFTER COPYING TO ~/.config/i3/config THIS WILL BECOME MAIN CONFIG FILE
+
+set $mod Mod4
+
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8:
+
+
+assign [class="Logseq"] 8
+
+exec --no-startup-id logseq
+exec --no-startup-id megasync
+
+bindsym $mod+F8 exec --no-startup-id logseq
+
+
+# THE MANJARO I3 CONFIG FILE IS HERE
+include ~/.i3/config
